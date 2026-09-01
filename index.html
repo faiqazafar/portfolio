@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/63ea12ba68.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+       <div class="container">
+       <nav>
+        <img src="picture/portfolio logo.png" class="logo">
+        <ul>
+        <li><a href="#header">Home</a></li>          
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects </a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+        </ul>
+       </nav>
+       <div id="header">
+       <div class="header-text">
+          <p>Web Developer</p>
+           <h1>Hello,I'm <span>Faiqa</span> 
+             <br> From COMSATS University</h1>    
+       </div>
+       </div>
+       </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="picture/image.webp" >   
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a BS Software Engineering student at COMSATS University Attock with a passion for web development and software design. I enjoy building practical projects, learning new technologies, and improving my programming skills. My goal is to create innovative solutions and grow as a professional software developer.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web development</span><br>Web app Development</li>
+                            <li><span>App development</span><br>Building Andriod/iOS apps</li>
+                            <li><span>Programming langauge</span><br>Java/Python Languages</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2025 - Present</span><br>Python Developer Intern</li>
+                            <li><span>Academic Projects</span><br>Developed Student, Hospital, and Transport Management Systems</li>
+                            <li><span>Web Development</span><br>Created responsive websites using HTML, CSS, and JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 - 2027</span><br>BS Software Engineering, COMSATS University Attock</li>
+                            <li><span>2021 - 2023</span><br>Higher Secondary School Certificate (FSc)</li>
+                            <li><span>2019 - 2021</span><br>Secondary School Certificate (Matric)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certifications">
+                      <ul>
+                        <li><span>Web Development</span><br>HTML, CSS & JavaScript Certification</li>
+                        <li><span>Python Programming</span><br>Online Course Completion Certificate</li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="projects">
+        <div class="container">
+            <hl class="sub-title">My Projects</hl>
+            <div class="projects-list">
+                <div>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <h2>E-Commerce Website</h2>
+                    <p><b>Role:</b> Frontend Developer<br>
+                        <b>Technology:</b> HTML, CSS, JavaScript<br>
+                        <b>Outcome:</b> Developed a responsive online shopping website.</p>
+                    <a href="https://github.com/faiqazafar/E-Commerce">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-hospital"></i>
+                    <h2>Hospital Management System</h2>
+                    <p>Role: Developer
+                        Technology: Java
+                        Outcome: Automated patient and staff management.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-bus"></i>
+                    <h2>Transport Management System</h2>
+                    <p>Role: Developer
+                        Technology: Java
+                        Outcome: Managed routes, vehicles, and transport records.</p>
+                    <a href="https://github.com/faiqazafar/Transport-Management-System">Learn more</a>
+                </div>
+            </div>
+        </div>
+    <!-- Testimonials -->
+    <div id="testimonials">
+        <div class="container">
+            <h1 class="sub-title">Testimonials</h1>
+            <div class="testimonial-single">
+                <span class="quote-mark">&#8220;</span>
+                <p>Faiqa Bibi is a dedicated and hardworking Software Engineering student who consistently demonstrates strong problem-solving abilities and a passion for learning new technologies. Her commitment to academic excellence and practical project development makes her a promising future software professional.</p>
+                <div class="testimonial-author">
+                    <div class="author-initial">[K]</div>
+                    <div>
+                        <h3>khawaja Muhammad Ali Butt</h3>
+                        <span>Deputy Registrar, COMSATS University Attock</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog / Articles -->
+    <div id="blog">
+        <div class="container">
+            <h1 class="sub-title">Blog &amp; Articles</h1>
+            <div class="blog-list">
+                <a href="https://github.com/faiqazafar/Student-Management-System" target="_blank" class="blog-row">
+                    <span class="blog-tag">Article</span>
+                    <div class="blog-row-text">
+                        <h2>Building a Student Management System</h2>
+                        <p>A practical guide to designing and implementing a Student Management System using Java and Object-Oriented principles.</p>
+                    </div>
+                    <span class="blog-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+                <a href="#" target="_blank" class="blog-row">
+                    <span class="blog-tag">Article</span>
+                    <div class="blog-row-text">
+                        <h2>Getting Started with Full Stack Web Development</h2>
+                        <p>An overview of HTML, CSS, JavaScript, PHP, and databases for aspiring full-stack developers.</p>
+                    </div>
+                    <span class="blog-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Achievements -->
+    <div id="achievements">
+        <div class="container">
+            <h1 class="sub-title">Achievements</h1>
+            <div class="achievements-strip">
+                <div class="achievement-badge">
+                    <div class="badge-icon"><i class="fa-solid fa-medal"></i></div>
+                    <h3>Project Development Excellence</h3>
+                    <p>Successfully developed multiple academic software projects including Student Management and E-Commerce Systems.</p>
+                </div>
+                <div class="achievement-badge">
+                    <div class="badge-icon"><i class="fa-solid fa-award"></i></div>
+                    <h3>Professional Development</h3>
+                    <p>Completed certifications and training in web development, programming, and emerging software technologies</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>Faiqa@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 03235672688</p>
+                    <p><i class="fa-brands fa-linkedin"></i> <a href="#" target="_blank">linkedin.com/in/Faiqa</a></p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="FAIQA_BIBI_CV.pdf" download class="btn download-btn">Download CV</a>
+                </div>
+                <div class="contact-right">
+                   <form action="https://script.google.com/macros/s/AKfycbzqNAOZajP7Rw49akgpwa_M-5v50YQMrp21vjPkFgrzYkLZjt0WQj7LMNKbDuy4-hH2/exec" method="POST">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer>Made with care by Faiqa Zafar &copy; 2026</footer>
+    </div>
+
+    </div>
+   <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+   </script> 
+</body>
+</html>
